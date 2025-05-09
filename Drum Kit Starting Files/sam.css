@@ -1,0 +1,78 @@
+.container{
+    background-color: #070F2B;
+    text-align: center;
+}
+h1{
+    color: white;
+    text-shadow: 3px 3px 3px  #D2691E;
+    font-size: 5rem;
+    margin-top :100px;
+}
+.set{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 100px;
+}
+.drum{
+    font-size: 80px;
+    color: #361500;
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    border: 10px solid #263159;
+    text-shadow: 4px 4px 4px #CC9544;
+}
+
+.space-grotesk-font {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+.w{
+    background-image: url("images/tom1.png");
+    background-size: cover;
+}
+.a{
+    background-image:url("images/tom2.png");
+    background-size:cover;
+}
+.s{
+    background-image: url("images/tom3.png");
+    background-size: cover;
+}
+.d{
+    background-image:url("images/tom4.png");
+    background-size: cover;
+}
+.j{
+    background-image: url("images/snare.png");
+    background-size: cover;
+}
+.k{
+    background-image: url("images/crash.png");
+    background-size: cover;
+}
+.l{
+    background-image: url("images/kick.png");
+    background-size: cover;
+}
+.pressed{
+    box-shadow: 4px 4px 4px 4px white;
+    opacity: 0.5;
+}
+footer{
+    color: aliceblue;
+    margin-top: 250px;
+    font-size: larger;
+    font-weight: bolder;
+}
+@media (min-width:320px) and (max-width:480px){
+    .set{
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 30%;
+    }
+}
